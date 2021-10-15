@@ -90,6 +90,7 @@ function tellMe(joke){
         f: '44khz_16bit_stereo',
         ssml: false
     });
+    console.log('tell me:',joke);
 }
 // get jokes from JokeAPI
 async function getJokes(){
