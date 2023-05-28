@@ -95,7 +95,7 @@ function tellMe(joke){
 // get jokes from JokeAPI
 async function getJokes(){
     let joke='';
-    const apiUrl='https://v2.jokeapi.dev/joke/Dark?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
+    const apiUrl='https://v2.jokeapi.dev/joke/Dark?';
     try{
         const response=await fetch(apiUrl);
         const data = await response.json();
